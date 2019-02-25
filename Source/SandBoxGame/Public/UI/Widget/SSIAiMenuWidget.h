@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Widgets/SCompoundWidget.h"
 
+class SBox;
 /**
  * 
  */
@@ -17,4 +18,10 @@ public:
 
 	/** Constructs this widget with InArgs */
 	void Construct(const FArguments& InArgs);
+
+private:
+	// 获取Menu样式 
+	const struct FSIAiStyle *MenuStyle;
+	// 保存根节点的
+	TSharedPtr<SBox> RootSizeBox;
 };
