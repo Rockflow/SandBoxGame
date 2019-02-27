@@ -14,5 +14,8 @@
 				"SlateCore"
 			]
 		}
+	],
+	"TargetPlatforms": [
+		"WindowsNoEditor"
 	]
 }

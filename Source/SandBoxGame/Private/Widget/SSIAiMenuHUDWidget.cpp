@@ -9,6 +9,7 @@
 #include "SDPIScaler.h"
 #include "Engine.h"
 #include "SSIAiMenuWidget.h"
+#include "SOverlay.h"
 
 BEGIN_SLATE_FUNCTION_BUILD_OPTIMIZATION
 void SSIAiMenuHUDWidget::Construct(const FArguments& InArgs)

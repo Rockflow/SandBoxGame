@@ -6,6 +6,7 @@
 #include "Widgets/SCompoundWidget.h"
 
 class SBox;
+class STextBlock;
 /**
  * 
  */
@@ -24,4 +25,7 @@ private:
 	const struct FSIAiStyle *MenuStyle;
 	// 保存根节点的
 	TSharedPtr<SBox> RootSizeBox;
+	// 保存标题
+	TSharedPtr<STextBlock> TitleText;
+
 };
